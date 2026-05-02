@@ -1,25 +1,38 @@
 import "./Navbar.css";
+import logo from "../assets/iNhaka-logo.png";
+
+import { useState } from "react";
+
 
 function Navbar() {
+
+    const [menuOpen, setMenuOpen] = useState(false);
+
   return (
     <nav className="navbar">
       {/* LEFT */}
       <div className="nav-left">
-        <div className="logo-icon">★</div>
-        <span className="logo-text">iNhaka</span>
+        <img src={logo} alt="iNhaka Logo" className="logo"/>
       </div>
 
       {/* CENTER */}
-      <ul className="nav-center">
-        <li><a href="#">Programs</a></li>
+      <ul className={`nav-center ${menuOpen ? "active" : ""}`}>
+
+        <li><a href="#">Home</a></li>
         <li><a href="#">About Us</a></li>
+        <li><a href="#">Programs</a></li>
         <li><a href="#">Events</a></li>
       </ul>
 
       {/* RIGHT */}
       <div className="nav-right">
-        <button className="donate-btn">Donate ❤️</button>
+        <button className="donate-btn">Join Us</button>
       </div>
+
+      {/* HAMBURGER */}
+        <div className="menu-icon" onClick={() => setMenuOpen(!menuOpen)}>
+          ☰
+        </div>
     </nav>
   );
 }
