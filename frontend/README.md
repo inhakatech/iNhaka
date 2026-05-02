@@ -27,7 +27,7 @@ To empower the next generation with accessible, practical, and high-quality tech
 
 ---
 
-## Website Goals
+## Our Goal
 
 - Share information about iNhaka’s programs  
 - Showcase events, workshops and bootcamps  
