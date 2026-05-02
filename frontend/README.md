@@ -1,16 +1,39 @@
-# React + Vite
+# iNhaka 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+iNhaka is a tech empowerment organization focused on equipping the next generation with practical skills in technology, innovation and problem-solving. We aim to inspire and train children and young people in areas such as coding, engineering, machine learning, robotics and digital creativity.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## About This Project
 
-## React Compiler
+The website serves as the digital platform for the organization, showcasing our mission, programs and opportunities for learners, mentors and partners.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## Our Mission
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+To empower the next generation with accessible, practical, and high-quality tech education that prepares them for the future of innovation and digital transformation.
+
+---
+
+## Focus Areas
+
+- Coding & Software Development  
+- Artificial Intelligence & Machine Learning  
+- Engineering Fundamentals  
+- Problem Solving & Logic Building  
+- Robotics & Automation  
+- Digital Creativity  
+
+---
+
+## Website Goals
+
+- Share information about iNhaka’s programs  
+- Showcase events, workshops and bootcamps  
+- Connect learners with mentors and opportunities  
+- Encourage collaboration with partners and sponsors  
+- Inspire young innovators in tech  
+
+---
+
